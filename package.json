@@ -1,8 +1,8 @@
 {
-	"name": "vscotion",
-	"displayName": "vscotion",
+	"name": "vscotion-plus",
+	"displayName": "vscotion-plus",
 	"description": "Vscotion is a Visual studio code extension to make a code snippet from the currently open file in vscode to your Notion account. ",
-	"publisher": "amirsina",
+	"publisher": "hussainasrullah",
 	"icon": ".github/images/icons/icon.png",
 	"version": "0.1.1",
 	"engines": {
@@ -10,7 +10,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/amirsinaa/vscotion"
+		"url": "https://github.com/hussain-nasrullah/vscotion-plus"
 	},
 	"categories": [
 		"Snippets",
@@ -18,25 +18,25 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:vscotion.addIntegrationKey",
-		"onCommand:vscotion.showCurrentIntegrationKey",
-		"onCommand:vscotion.saveToNotion"
+		"onCommand:vscotionPlus.addIntegrationKey",
+		"onCommand:vscotionPlus.showCurrentIntegrationKey",
+		"onCommand:vscotionPlus.saveToNotion"
 	],
 	"main": "./dist/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "vscotion.addIntegrationKey",
+				"command": "vscotionPlus.addIntegrationKey",
 				"title": "VSCotion: Add Notion Integration Key",
 				"icon": "$(key)"
 			},
 			{
-				"command": "vscotion.showCurrentIntegrationKey",
+				"command": "vscotionPlus.showCurrentIntegrationKey",
 				"title": "VSCotion: Show current Notion Integration Key",
 				"icon": "$(eye)"
 			},
 			{
-				"command": "vscotion.saveToNotion",
+				"command": "vscotionPlus.saveToNotion",
 				"title": "VSCotion: Save snippet to notion",
 				"icon": "${save}"
 			}

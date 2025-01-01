@@ -1,11 +1,12 @@
-import { NotionSupportedLanguages } from './notion-supported-languages';
+import { NotionSupportedLanguages } from "./notion-supported-languages";
 
 export type VscodeDocumentContent = {
-  code: string,
-  language: NotionSupportedLanguages
-}
+  code: string;
+  language: NotionSupportedLanguages;
+  caption: string;
+};
 
 export type PostPage = VscodeDocumentContent & {
-  id: string,
-  title: string
-}
+  id: string;
+  title: string;
+};
